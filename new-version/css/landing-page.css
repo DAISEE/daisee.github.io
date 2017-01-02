@@ -29,6 +29,11 @@ h6 {
     font-size: 18px;
     font-weight: 400;
 }
+.lead-center {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
 
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -107,6 +112,11 @@ h6 {
     margin-bottom: 30px;
 }
 
+.section-heading-center {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .section-heading-spacer {
     float: left;
     width: 200px;
@@ -168,3 +178,18 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+.img-circle {
+    border-radius: 50%;
+    max-width: 55%; 
+    display:block; 
+    height: auto;
+    margin: auto;
+}
+
+.img-logo {
+    max-width: 30%; 
+    height: auto;
+    margin: auto;
+}
+
