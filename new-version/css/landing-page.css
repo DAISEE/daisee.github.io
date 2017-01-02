@@ -193,3 +193,26 @@ p.copyright {
     margin: auto;
 }
 
+.img-footer {
+    max-width: 30%; 
+    height: 30px;
+    margin: auto;
+}
+
+.img-topnav {
+    margin-top:-8px;
+    height: auto;
+
+}
+
+.mission {
+    font-size: 24px;
+    text-align: justify; 
+}
+
+
+.navbar-nav > li > a, .navbar-brand {
+    height: 55px;
+}
+
+.navbar {min-height:55px !important;}
