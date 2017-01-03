@@ -177,6 +177,7 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+    text-align: center;
 }
 
 .img-circle {
@@ -196,7 +197,7 @@ p.copyright {
 .img-footer {
     max-width: 30%; 
     height: 30px;
-    margin: auto;
+    margin-top: -5px;
 }
 
 .img-topnav {
@@ -207,7 +208,7 @@ p.copyright {
 
 .mission {
     font-size: 24px;
-    text-align: justify; 
+    text-align: center; 
 }
 
 
