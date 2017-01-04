@@ -22,7 +22,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 18px; 
+    font-size: 22px; 
 }
 
 .lead {
@@ -36,12 +36,14 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    padding-top: 200px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 60px;
     text-align: center;
+    font-size: 30px;
     color: #f8f8f8;
     background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
+    height:90%;
 }
 
 .intro-message {
@@ -97,15 +99,42 @@ h6 {
     letter-spacing: 2px;
 }
 
+
+.newsletter {
+    padding: 30px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #f8f8f8;
+    height:10%;
+    text-align: center;
+}
+
+.newsletter-title {
+    font-size: 24px;
+    font-weight: 400;
+}
+
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
+    height:100%;
+    font-weight: 400;
 }
 
 .content-section-b {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
+    height:100%;
+    font-weight: 400;
+}
+
+.content-section-c {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    height:100%;
+    font-weight: 400;
+    height:75%;
 }
 
 .section-heading {
@@ -141,7 +170,6 @@ h6 {
 }
 
 .banner-social-buttons {
-    float: right;
     margin-top: 0;
 }
 
@@ -172,7 +200,9 @@ h6 {
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+    height: 25%;
+    font-size: 18px;
 }
 
 p.copyright {
@@ -213,10 +243,11 @@ p.copyright {
 
 
 .navbar-nav > li > a, .navbar-brand {
-    height: 55px;
+    height: 60px;
+    font-size: 22px;
 }
 
-.navbar {min-height:55px !important;}
+.navbar {min-height:60px !important;}
 
 
 .carousel {
@@ -248,5 +279,29 @@ p.copyright {
     background: #cecece;
 }
 .carousel-indicators .active {
-background: #428bca;
+    background: #428bca;
+}
+
+iframe {
+    display:block;
+    overflow: scroll;
+}
+
+.btn-circle {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 30px 0;
+  font-size: 45px;
+  line-height: 1.42;
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#text-contact {
+  font-size: 18px;
+  font-weight: 600
 }
