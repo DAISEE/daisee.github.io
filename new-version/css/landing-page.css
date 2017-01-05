@@ -43,7 +43,7 @@ h6 {
     color: #f8f8f8;
     background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
-    height:90%;
+    min-height: 90vh;
 }
 
 .intro-message {
@@ -105,7 +105,7 @@ h6 {
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
     background-color: #f8f8f8;
-    height:10%;
+    min-height: 10vh;
     text-align: center;
 }
 
@@ -117,7 +117,7 @@ h6 {
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
-    height:100%;
+    min-height: 100vh;
     font-weight: 400;
 }
 
@@ -125,16 +125,24 @@ h6 {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
-    height:100%;
+    min-height: 100vh;
     font-weight: 400;
 }
 
 .content-section-c {
     padding: 50px 0;
     background-color: #f8f8f8;
-    height:100%;
     font-weight: 400;
-    height:75%;
+    min-height: 75vh;
+}
+
+.content-hackpad {
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    min-height: 100vh;
+    min-width: 100vh;
+    font-weight: 400;
 }
 
 .section-heading {
@@ -201,7 +209,7 @@ h6 {
 footer {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
-    height: 25%;
+    min-height: 25vh;
     font-size: 18px;
 }
 
@@ -288,6 +296,7 @@ iframe {
 }
 
 .btn-circle {
+  display: block;
   width: 120px;
   height: 120px;
   text-align: center;
@@ -299,9 +308,25 @@ iframe {
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  right: 50%;
 }
 
 #text-contact {
   font-size: 18px;
   font-weight: 600
+}
+
+#license {
+  vertical-align: middle;
+}
+
+#social-b{
+    right: 50%;
+}
+
+iframe.Scrolling{
+    width: 1181px;
+    overflow: scroll;
+    border: 1px solid #e7e7e7;
+    min-height: 70vh;
 }
