@@ -124,12 +124,28 @@
                 <div class="col-xs-12">
                     <p class="mission">
                     <br><br>
-                    <strong>DAISEE is an open design program for people who consider Energy as a Common(s).</strong>
-                    <br><br>
-                    We are going to build the <strong>Internets of Energy</strong> with resilient, decentralized, secured and trusted energy infrastructures. Our goal is to provide the conditions for Prosumers to freely decide how to share energy and for grid stakeholders to transparently access auditable anonymous energy data.
-                    <br><br></p>
-                    <center><div class="GSlides"><iframe src="https://docs.google.com/presentation/d/1YLQCmcwgdepO9y6gIYmb1kIqKA4OBRH86f3Ndh0eYTA/embed?start=false&loop=false&delayms=5000" frameborder="0" width="800" height="474" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div></center>
-                    <p class="mission"><br><a href="https://frama.link/DAISEE-summary" target="_blank">https://frama.link/DAISEE-summary</a></p>
+                        <strong>DAISEE is an open design program for people who consider Energy as a Common(s).</strong>
+                        <br><br>
+                        We are going to build the <strong>Internets of Energy</strong> with resilient, decentralized, secured and trusted energy infrastructures. Our goal is to provide the conditions for Prosumers to freely decide how to share energy and for grid stakeholders to transparently access auditable anonymous energy data.
+                        <br><br>
+                    </p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="GSlides">
+                                    <iframe src="https://docs.google.com/presentation/d/1YLQCmcwgdepO9y6gIYmb1kIqKA4OBRH86f3Ndh0eYTA/embed?start=false&loop=false&delayms=5000" frameborder="0" width="800" height="474" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                                </div>                        
+                            </div>
+                            <div class="col-md-2">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="mission">
+                        <br><br>
+                        <a href="https://frama.link/DAISEE-summary" target="_blank">https://frama.link/DAISEE-summary</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -145,8 +161,16 @@
                     <p class="mission">
                         <br><br>This page brings together all the (proto) documentation maintained by the core team of DAISEE. 
                         <br><br>
-                        <div class="HPad"><iframe src="hackpad-jan2017.html" frameborder="0" class="Scrolling"></iframe></div>
-                        <br>
+                    </p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="HPad"><iframe src="hackpad-jan2017.html" frameborder="0" class="Scrolling"></iframe></div>
+                            </div>
+                        </div>                        
+                    </div> 
+                    <p class="mission">     
+                                           
                         <a href="https://hackpad.com/DAISEE-Documentation-Jan.-2017-KHgFcafILUc" target="_blank">View on Hackpad.com</a><br>
                     </p>
                 </div>
@@ -380,6 +404,14 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).on('click','.navbar-collapse.in',function(e) {
+        if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+            $(this).collapse('hide');
+        }
+        });
+    </script>
 
 </body>
 
