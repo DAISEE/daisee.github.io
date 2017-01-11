@@ -68,12 +68,13 @@ h6 {
 }
 
 @media(max-width:767px) {
+
     .intro-message {
         padding-bottom: 15%;
     }
 
     .intro-message > h1 {
-        font-size: 3em;
+        font-size: 2.5em;
     }
 
     ul.intro-social-buttons > li {
@@ -256,6 +257,16 @@ p.copyright {
 
 .navbar {min-height:60px !important;}
 
+@media(max-width:767px) {
+
+    .navbar-nav > li > a, .navbar-brand {
+    height: 50px;
+    font-size: 18px;
+    }
+
+    .navbar {min-height:50px !important;}
+
+}
 
 .carousel {
     margin-bottom: 0;
