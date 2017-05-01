@@ -4,348 +4,261 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-body,
-html {
-    width: 100%;
-    height: 100%;
+body,html {
+  width: 100%;
+  height: 100%;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Abel","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Abel","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
 }
 
 .topnav {
-    font-size: 22px; 
+  font-size: 22px;
 }
 
 .lead {
-    font-size: 18px;
-    font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 }
+
 .lead-center {
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .nwsl-center {
-    padding-top: 5px;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
+  padding-top: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .intro-header {
-    padding-top: 200px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 60px;
-    text-align: center;
-    font-size: 30px;
-    color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
-    min-height: 90vh;
+  padding-top: 200px;
+  /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+  padding-bottom: 60px;
+  text-align: center;
+  font-size: 30px;
+  color: #f8f8f8;
+  background: url(../img/intro-bg.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 90vh;
 }
 
 .intro-message {
-    position: relative;
+  position: relative;
 }
 
 .intro-message > h1 {
-    margin: 0;
-    padding-right: 10px;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
-}
-
-.intro-divider {
-    width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+  margin: 0;
+  padding-right: 10px;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  font-size: 5em;
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
-@media(max-width:767px) {
+@media (max-width:767px) {
+  .intro-message {
+    padding-bottom: 15%;
+  }
 
-    .intro-message {
-        padding-bottom: 15%;
-    }
-
-    .intro-message > h1 {
-        font-size: 2.5em;
-    }
-
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.intro-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-
-    .intro-divider {
-        width: 100%;
-    }
+  .intro-message > h1 {
+    font-size: 2.5em;
+  }
 }
-
-.network-name {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
-
 
 .newsletter {
-    padding: 30px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
-    background-color: #f8f8f8;
-    min-height: 10vh;
-    text-align: center;
+  padding: 30px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #f8f8f8;
+  min-height: 10vh;
+  text-align: center;
 }
 
 .newsletter-title {
-    font-size: 24px;
-    font-weight: 400;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .content-section-a {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-    min-height: 100vh;
-    font-weight: 400;
+  padding: 50px 0;
+  background-color: #f8f8f8;
+  min-height: 100vh;
+  font-weight: 400;
 }
 
 .content-section-b {
-    padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
-    min-height: 100vh;
-    font-weight: 400;
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  min-height: 100vh;
+  font-weight: 400;
 }
 
 .content-section-c {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-    font-weight: 400;
-    min-height: 75vh;
+  padding: 50px 0;
+  background-color: #f8f8f8;
+  font-weight: 400;
+  min-height: 75vh;
 }
 
 .content-hackpad {
+  background-color: #f8f8f8;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  min-height: 100vh;
+  min-width: 100vh;
+  font-weight: 400;
+}
+
+@media (max-width:767px) {
+  .content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    font-weight: 400;
+  }
+
+  .content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    font-weight: 400;
+  }
+
+  .content-section-c {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    font-weight: 400;
+  }
+
+  .content-hackpad {
     background-color: #f8f8f8;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
-    min-height: 100vh;
     min-width: 100vh;
     font-weight: 400;
-}
-
-
-@media(max-width:767px) {
-    .content-section-a {
-        padding: 50px 0;
-        background-color: #f8f8f8;
-        font-weight: 400;
-    }
-
-    .content-section-b {
-        padding: 50px 0;
-        border-top: 1px solid #e7e7e7;
-        border-bottom: 1px solid #e7e7e7;
-        font-weight: 400;
-    }
-
-    .content-section-c {
-        padding: 50px 0;
-        background-color: #f8f8f8;
-        font-weight: 400;
-    }
-
-    .content-hackpad {
-        background-color: #f8f8f8;
-        border-top: 1px solid #e7e7e7;
-        border-bottom: 1px solid #e7e7e7;
-        min-width: 100vh;
-        font-weight: 400;
-    }
+  }
 }
 
 .section-heading {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .section-heading-center {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.section-heading-spacer {
-    float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
-}
-
-.banner {
-    padding: 100px 0;
-    color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
-    background-size: cover;
-}
-
-.banner h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 3em;
-}
-
-.banner ul {
-    margin-bottom: 0;
-}
-
-.banner-social-buttons {
-    margin-top: 0;
-}
-
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    .banner h3 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 3em;
-    }
-
-    ul.banner-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 footer {
-    padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    min-height: 25vh;
-    font-size: 18px;
-}
-
-p.copyright {
-    margin: 15px 0 0;
-    text-align: center;
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  min-height: 25vh;
+  font-size: 18px;
 }
 
 .img-circle {
-    border-radius: 50%;
-    max-width: 55%; 
-    display:block; 
-    height: auto;
-    margin: auto;
+  border-radius: 50%;
+  max-width: 55%;
+  display: block;
+  height: auto;
+  margin: auto;
 }
 
 .img-logo {
-    max-width: 30%; 
-    height: auto;
-    margin: auto;
+  max-width: 30%;
+  height: auto;
+  margin: auto;
 }
 
 .img-footer {
-    max-width: 30%; 
-    height: 30px;
-    margin-top: -5px;
+  max-width: 30%;
+  height: 30px;
+  margin-top: -5px;
 }
 
 .img-topnav {
-    margin-top:-8px;
-    height: auto;
-
+  margin-top: -8px;
+  height: auto;
 }
 
 #img-header {
-    margin-top:-8px;
-    margin-left: -100px; 
-    height: auto;
+  margin-top: -8px;
+  margin-left: -100px;
+  height: auto;
 }
 
-@media(max-width:767px) {
-
-    #img-header {
-        margin-top:-100px;
-        height: 200px;
-        margin-left: 0px; 
-    }
-
+@media (max-width:767px) {
+  #img-header {
+    margin-top: -100px;
+    height: 200px;
+    margin-left: 0px;
+  }
 }
-
 
 .mission {
-    font-size: 24px;
-    text-align: center; 
+  font-size: 24px;
+  text-align: center;
 }
 
-
-.navbar-nav > li > a, .navbar-brand {
-    height: 50px;
-    font-size: 22px;
+.navbar-nav > li > a,.navbar-brand {
+  height: 50px;
+  font-size: 22px;
 }
 
-.navbar {min-height:50px !important;}
+.navbar {
+  min-height: 50px !important;
+}
 
 .carousel {
-    margin-bottom: 0;
-    padding: 0 40px 30px 40px;
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
 }
+
 /* The controlsy */
+
 .carousel-control {
-    left: -12px;
-    height: 40px;
-    width: 40px;
-    background: none repeat scroll 0 0 #222222;
-    border: 4px solid #FFFFFF;
-    border-radius: 23px 23px 23px 23px;
-    margin-top: 90px;
+  left: -12px;
+  height: 40px;
+  width: 40px;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  margin-top: 90px;
 }
+
 .carousel-control.right {
-    right: -12px;
+  right: -12px;
 }
+
 /* The indicators */
+
 .carousel-indicators {
-    right: 50%;
-    top: auto;
-    bottom: -10px;
-    margin-right: -19px;
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
 }
+
 /* The colour of the indicators */
+
 .carousel-indicators li {
-    background: #cecece;
+  background: #cecece;
 }
+
 .carousel-indicators .active {
-    background: #428bca;
+  background: #428bca;
 }
 
 iframe {
-    display:block;
-    overflow: scroll;
+  display: block;
+  overflow: scroll;
 }
 
 .btn-circle {
@@ -366,47 +279,25 @@ iframe {
 
 #text-contact {
   font-size: 18px;
-  font-weight: 600
+  font-weight: 600;
 }
 
 #license {
   vertical-align: middle;
 }
 
-#social-b{
-    right: 50%;
+.GSlides {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
 }
 
-iframe.Scrolling{
-    width: 1181px;
-    overflow: scroll;
-    border: 1px solid #e7e7e7;
-    min-height: 70vh;
-}
-
-.GSlides{
-position: relative;
-padding-bottom: 56.25%; /* 16:9 */
-padding-top: 25px;
-height: 0;
-}
 .GSlides iframe {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-}
-
-.HPad{
-position: relative;
-height: 0;
-}
-.HPad iframe {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-overflow: scroll;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
