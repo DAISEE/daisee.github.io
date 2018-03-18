@@ -37,15 +37,17 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 
 .intro-header {
-  padding-top: 200px;
-  /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-  padding-bottom: 60px;
-  text-align: center;
-  font-size: 30px;
-  color: #f8f8f8;
+  align-items: center;
   background: url(../img/intro-bg.jpg) no-repeat center center;
   background-size: cover;
+  color: #f8f8f8;
+  display: flex;
+  font-size: 30px;
   min-height: 90vh;
+  /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+  padding-bottom: 60px;
+  padding-top: 200px;
+  text-align: center;
 }
 
 .intro-message {
