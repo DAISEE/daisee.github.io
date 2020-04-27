@@ -1,3 +1,3 @@
 # Site web
 
-Ce répertoire contient les sources du (proto) [site web](http://daisee.github.io) de DAISEE. 
+Ce répertoire contient les sources du (proto) [site web](https://fabenergies.github.io) de la Fabrique des Energies. 
